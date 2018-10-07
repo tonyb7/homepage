@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://rubenwardy.com/lichess_widgets/lichess_widgets.css" />
+    <script src="https://rubenwardy.com/lichess_widgets/lichess_widgets.js"></script>
+    <link rel="stylesheet" href="https://rubenwardy.com/lichess_widgets/light.css" /> 
+    <title>Tony's Botsite</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+	<div id="bigbody">
+		<div id="header">
+			<h1>Chess Bots</h1>
+		</div>
+		<div id="accounts">
+			<ul>
+			  <li><a class="human" href="https://lichess.org/@/FreezingTiger">Human account</a></li>
+			  <script>lichess_widgets.profile_scores("light", "FreezingTiger");</script>
+			  <li><a href="https://lichess.org/@/FlamingDragon_9000">Stockfish account</a><br/></li>
+			  <script>lichess_widgets.profile_scores("light", "FlamingDragon_9000");</script>
+			  <li><a href="https://lichess.org/@/ShadicBot">Leela account (not up and running)</a></li>
+			  <script>lichess_widgets.profile_scores("light", "ShadicBot");</script>
+			</ul>
+		</div>
+		<div id="playchess">
+		  <p>Play chess right here!</p>
+		  <script src="https://lichess.org/embed?w=800&h=650"></script>
+		</div>
+		<div id="widgets">
+			<div id="watchwidget">
+			  <p>Or maybe watch some games?</p>
+			  <script src="https://lichess.org/tv/embed?theme=auto&bg=auto"></script>
+			</div>
+			<div id="puzzlewidget">
+			  <p>Perhaps puzzles are more for you?</p>
+			  <script src="https://lichess.org/training/embed?theme=auto&bg=auto"></script>
+			</div>
+		</div>
+		<div id="footer">
+		tonybai123@gmail.com
+		</div>
+	</div>
+	
+    
+  </body>
+</html>
