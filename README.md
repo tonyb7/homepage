@@ -1,4 +1,4 @@
-Botsite
+Site
 =
-A personal sandbox for HTML and CSS.
+A personal website. Can be found at http://www-personal.umich.edu/~bait/..
 
